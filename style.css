@@ -1,0 +1,151 @@
+h1, h2, h3, h4, h5, h6, li {
+  font-family: 'Slabo 27px', serif;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+p {
+font-family: 'Open Sans Condensed', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+div#main-wrapper {
+background: #efefef;
+}
+
+header {
+background: black;
+color: white;
+
+}
+
+.logo h1 {
+margin: 0;
+padding: 15px;
+text-shadow: 1px 1px 1px #62c3ff;
+}
+
+nav ul li {
+list-style: none;
+margin: 0 6px;
+display: inline-block;
+padding: 5px;
+transition: background 300ms;
+
+}
+
+nav ul {
+padding: 15px 5px;
+}
+
+.main-nav {
+background: black;
+}
+
+nav ul li a {
+color: white;
+}
+
+nav ul li:hover {
+background: orange;
+border-radius: 5px;
+box-shadow: 1px 1px 1px grey;
+}
+.facebook{
+  float: left;
+}
+
+.banner {
+min-height: 350px;
+width: 100%;
+background-image: url(http://static.thanhnien.com.vn/uploaded/phuongthanh/2015_03_17/shin_rvuq.jpg?width=500);
+background-size: cover;
+background-attachment: fixed;
+}
+
+.banner h1 {
+text-align: center;
+padding-top: 24%;
+margin: 0;
+color: white;
+}
+
+.banner p {
+text-align: center;
+color: white;
+}
+
+.facebook {
+  padding: 15px;
+}
+
+.main-col {
+width: 90%;
+margin: auto;
+}
+
+.col-three {
+width: 30%;
+margin: .75%;
+padding: .75%;
+float: left;
+}
+
+.col-three img {
+width: 100%;
+border-radius: 50px;
+}
+
+.col-four {
+width: 22%;
+margin: .75%;
+padding: .75%;
+float: left;
+}
+
+.front-three {
+overflow: auto;
+margin: 20px 0;
+}
+
+.picture{
+  width: 30%;
+  margin: .75%;
+  padding: .75%;
+  float: left;
+}
+
+
+.gallery{
+    margin-top:20px;
+}
+
+.gallery img{
+    width:350px;
+    height:200px;
+    float:left;
+    display:block;
+    margin-right:3px;
+    margin-bottom:3px;
+}
+
+footer {
+background: #0c0c0c;
+color: white;
+overflow: auto;
+}
+
+@media screen and (max-width: 480px) {
+  .col-three {
+    width: 100% !important;
+    margin: 0;
+    padding: 0;
+    float: none;
+}
